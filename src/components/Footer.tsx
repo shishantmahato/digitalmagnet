@@ -26,7 +26,7 @@ export default function Footer() {
               <img 
                 src="/digital magnet original logo copy.png" 
                 alt="Digital Magnet Logo" 
-                className="h-8 w-8"
+                className="h-10 w-10"
               />
               <span className="ml-2 text-xl font-bold">Digital Magnet</span>
             </div>

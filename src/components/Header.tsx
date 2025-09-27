@@ -27,7 +27,7 @@ export default function Header({ onNavigateHome }: HeaderProps) {
             <img 
               src="/digital magnet original logo copy.png" 
               alt="Digital Magnet Logo" 
-              className="h-8 w-8 group-hover:opacity-80 transition-opacity"
+              className="h-10 w-10 group-hover:opacity-80 transition-opacity"
             />
             <span className="ml-2 text-xl font-bold text-gray-900 group-hover:text-blue-700 transition-colors">
               Digital Magnet
