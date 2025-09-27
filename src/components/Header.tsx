@@ -30,6 +30,7 @@ export default function Header({ onNavigateHome }: HeaderProps) {
               className="h-10 w-10 group-hover:opacity-80 transition-opacity"
             />
             <span className="ml-2 text-xl font-bold text-gray-900 group-hover:text-blue-700 transition-colors">
+            <span className="ml-2 text-xl font-bold text-gray-900 group-hover:text-green-700 transition-colors">
               Digital Magnet
             </span>
           </div>
@@ -38,31 +39,31 @@ export default function Header({ onNavigateHome }: HeaderProps) {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('testimonials')}
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
             >
               Testimonials
             </button>
             <button 
               onClick={() => scrollToSection('blog')}
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
             >
               Blog
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 font-medium"
+              className="bg-gradient-to-r from-green-600 to-teal-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 font-medium"
             >
               Get Started
             </button>
@@ -87,31 +88,31 @@ export default function Header({ onNavigateHome }: HeaderProps) {
             <div className="flex flex-col space-y-4">
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-left text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="text-left text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 Services
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-left text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="text-left text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 About
               </button>
               <button 
                 onClick={() => scrollToSection('testimonials')}
-                className="text-left text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="text-left text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 Testimonials
               </button>
               <button 
                 onClick={() => scrollToSection('blog')}
-                className="text-left text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="text-left text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 Blog
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-left bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 font-medium w-fit"
+                className="text-left bg-gradient-to-r from-green-600 to-teal-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 font-medium w-fit"
               >
                 Get Started
               </button>
