@@ -41,7 +41,7 @@ export default function Services({ onServiceClick, services }: ServicesProps) {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
             AI Solutions That{' '}
-            <span className="bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Drive Results
             </span>
           </h2>
@@ -60,13 +60,13 @@ export default function Services({ onServiceClick, services }: ServicesProps) {
                 onClick={() => onServiceClick(service.id)}
               >
                 <div className="flex items-center justify-between mb-4">
-                  <div className="p-3 bg-gradient-to-r from-green-100 to-teal-100 rounded-lg group-hover:from-green-200 group-hover:to-teal-200 transition-colors">
-                    <IconComponent className="h-6 w-6 text-green-600 group-hover:text-green-700 transition-colors" />
+                  <div className="p-3 bg-gradient-to-r from-blue-100 to-purple-100 rounded-lg group-hover:from-blue-200 group-hover:to-purple-200 transition-colors">
+                    <IconComponent className="h-6 w-6 text-blue-600 group-hover:text-blue-700 transition-colors" />
                   </div>
                   <Zap className="h-4 w-4 text-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
                 
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-green-700 transition-colors">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-700 transition-colors">
                   {service.title}
                 </h3>
                 
@@ -74,7 +74,7 @@ export default function Services({ onServiceClick, services }: ServicesProps) {
                   {service.description}
                 </p>
 
-                <div className="flex items-center text-green-600 font-medium text-sm group-hover:text-green-700 transition-colors">
+                <div className="flex items-center text-blue-600 font-medium text-sm group-hover:text-blue-700 transition-colors">
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </div>
@@ -84,9 +84,9 @@ export default function Services({ onServiceClick, services }: ServicesProps) {
         </div>
 
         <div className="text-center mt-12">
-          <div className="inline-flex items-center bg-gradient-to-r from-green-50 to-teal-50 rounded-full px-6 py-3 border border-green-200">
-            <Zap className="h-5 w-5 text-green-600 mr-2" />
-            <span className="text-green-700 font-medium">Ready to transform your business? Choose a service above!</span>
+          <div className="inline-flex items-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-full px-6 py-3 border border-blue-200">
+            <Zap className="h-5 w-5 text-blue-600 mr-2" />
+            <span className="text-blue-700 font-medium">Ready to transform your business? Choose a service above!</span>
           </div>
         </div>
       </div>
