@@ -23,7 +23,11 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <Brain className="h-8 w-8 text-blue-400" />
+              <img 
+                src="/digital magnet original logo copy.png" 
+                alt="Digital Magnet Logo" 
+                className="h-8 w-8"
+              />
               <span className="ml-2 text-xl font-bold">Digital Magnet</span>
             </div>
             

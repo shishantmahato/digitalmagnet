@@ -24,7 +24,11 @@ export default function Header({ onNavigateHome }: HeaderProps) {
             className="flex items-center cursor-pointer group"
             onClick={onNavigateHome}
           >
-            <Brain className="h-8 w-8 text-blue-600 group-hover:text-blue-700 transition-colors" />
+            <img 
+              src="/digital magnet original logo copy.png" 
+              alt="Digital Magnet Logo" 
+              className="h-8 w-8 group-hover:opacity-80 transition-opacity"
+            />
             <span className="ml-2 text-xl font-bold text-gray-900 group-hover:text-blue-700 transition-colors">
               Digital Magnet
             </span>
